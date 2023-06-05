@@ -2,60 +2,190 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Index</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Eben-ezer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!-- Favicons 
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  -->
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="navigation">
-        <ul>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                    <span class="text">Home</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="book-outline"></ion-icon>
-                    </span>
-                    <span class="text">Bibbia</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="chatbubbles-outline"></ion-icon>
-                    </span>
-                    <span class="text">Chat</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="image-outline"></ion-icon>
-                    </span>
-                    <span class="text">Photos</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="settings-outline"></ion-icon>
-                    </span>
-                    <span class="text">Settings</span>
-                </a>
-            </li>
-        </ul>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex flex-column align-items-center">
+
+      <h1>Molto presto!</h1>
+      <h2>Stiamo lavorando per rendere la pagina Eben-ezer parma online</h2>
+      <div class="countdown d-flex justify-content-center" data-count="2023/6/30">
+        <div>
+          <h3>%d</h3>
+          <h4>Days</h4>
+        </div>
+        <div>
+          <h3>%h</h3>
+          <h4>Hours</h4>
+        </div>
+        <div>
+          <h3>%m</h3>
+          <h4>Minutes</h4>
+        </div>
+        <div>
+          <h3>%s</h3>
+          <h4>Seconds</h4>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <h4>Iscriviti per rimanere aggiornato delle prossime novità</h4>
+        <form action="forms/notify.php" method="post" role="form" class="php-email-form">
+          <div class="subscribe-form">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </div>
+          <div class="mt-2">
+            <div class="loading">Caricamento</div>
+            <div class="error-message"></div>
+            <div class="sent-message">La tua notifica è stata inviata! Grazie mille!</div>
+          </div>
+        </form>
+      </div>
+      <div class="social-links text-center">
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </header>
+  <!-- End #header -->
+
+  <main id="main">
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>Chiesa Evangelica a Parma!</h2>
+            <h3>Vamos por màs!</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Il nostro motto è :
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> Evangelizare</li>
+              <li><i class="bi bi-check"></i> Affirmare</li>
+              <li><i class="bi bi-check"></i> Discipolare</li>
+              <li><i class="bi bi-check"></i> Inviare</li>
+
+            </ul>
+            <p class="fst-italic">
+              Saremmo molto contenti che questo possa diventare anche il tuo motto!
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>- Contattaci -</h2>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Posizione:</h4>
+                  <p>Via Colorno<br>Parma, 76/A</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>jhojanverde000@gmail.com</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+39 3344 58866 51<br>+39 3344 66885 15</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <!--Form della pagina finale-->
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Oggetto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Messagio" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Caricamento</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Il tuo messaggio è stato inviato! Grazie!</div>
+              </div>
+              <div class="text-center"><button type="submit">Invia messaggio</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  </footer><!-- End #footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
